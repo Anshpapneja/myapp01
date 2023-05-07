@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Random random = new Random();
-                int val = random.nextInt(1000);
+                int val = random.nextInt(999999);
                 txt .setText(Integer.toString(val));
             }
         });
